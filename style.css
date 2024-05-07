@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Gilroy";
 }
 
 .card-container{
@@ -11,7 +12,7 @@
 }
 
 .card{
-    width:fit-content;
+    width:27%;
     height: 50%;
     border: 3px solid black;
     border-radius: 10px;
@@ -20,4 +21,15 @@
 
 img{
     border-radius: 5px;
+}
+
+.card-txt{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 15px;
+}
+
+.card-info{
+    text-align: left;
+    padding: 10px 10px;
 }
