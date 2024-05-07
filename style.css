@@ -13,7 +13,7 @@
 
 .card{
     width:27%;
-    height: 50%;
+    height:fit-content;
     border: 3px solid black;
     border-radius: 10px;
     /* border: none; */
@@ -32,4 +32,10 @@ img{
 .card-info{
     text-align: left;
     padding: 10px 10px;
+}
+
+.fees{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
 }
